@@ -11,7 +11,7 @@ public class ActimeTestCase {
 		System.setProperty("webdriver.chrome.driver", "./software/chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
-		
+		//new 
 		driver.manage().window().maximize();
 		driver.get("https://demo.actitime.com/login.do");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
